@@ -8,6 +8,9 @@
         h1 {
             color:skyblue;
         }
+        table, th, td{
+            border:1px solid green
+        }
         </style>
         <!-- <script>
             document.addEventListener('click',function(){
@@ -75,6 +78,39 @@
             </video>
         </pre>
         <!-- <pre>는 공백만큼 그대로 출력 -->
-
+        <table >
+            <tr>
+                <th>TIME</th>
+                <th>INDOOR</th>
+                <th colspan="2">OUTDOOR</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>소극장</td>
+                <td>잔디마당</td>
+                <td>대공연장</td>
+            </tr>
+            <tr>
+                <td>10:00</td>
+                <td rowspan="2">안녕하신가영</td>
+                <td></td>
+                <td>10CM</td>
+            </tr>
+            <tr>
+                <td>13:00</td>
+                <td rowspan="2">선우정아</td>
+                <td rowspan="2">참깨와 솜사탕</td>
+            </tr>
+            <tr>
+                <td>15:00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>17:00</td>
+                <td>크러쉬</td>
+                <td></td>
+                <td>폴킴</td>
+            </tr>
+        </table>
     </body>
 </html>
